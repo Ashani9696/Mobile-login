@@ -10,20 +10,21 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="140dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="196dp"
+        android:layout_width="289dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="120dp"
         android:autoText="true"
         android:background="#FF9800"
         android:backgroundTint="#C33659"
         android:fontFamily="verdana"
         android:foregroundTint="#FEF7F7"
-        android:text="Login"
+        android:shadowColor="#931111"
+        android:text="Login to your account"
         android:textAlignment="center"
         android:textColor="#FCFBFB"
         android:textSize="48sp"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="227dp" />
+        tools:layout_editor_absoluteY="186dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -35,7 +36,7 @@
         android:textColor="@color/white"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="328dp" />
+        tools:layout_editor_absoluteY="391dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -46,7 +47,7 @@
         android:textColor="#F5F1F1"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="408dp" />
+        tools:layout_editor_absoluteY="469dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -55,17 +56,17 @@
         android:ems="10"
         android:inputType="textPassword"
         android:textColor="#FBF7F7"
-        tools:layout_editor_absoluteX="217dp"
-        tools:layout_editor_absoluteY="396dp" />
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="469dp" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="205dp"
+        android:layout_height="53dp"
         android:textColor="#FEFAFA"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="328dp" />
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="383dp" />
 
     <Button
         android:id="@+id/button2"
@@ -76,8 +77,9 @@
         android:textAlignment="center"
         android:textColor="#C33659"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="669dp" />
+        app:strokeColor="#872A2A"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="593dp" />
 
     <View
         android:id="@+id/view"
@@ -98,5 +100,17 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="450dp"
+        android:layout_height="213dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="3dp"
+        android:background="@drawable/swg3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
