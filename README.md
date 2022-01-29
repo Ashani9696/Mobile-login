@@ -1,2 +1,2 @@
 # Mobile-login
-Simple login android
+Simple login android UI
